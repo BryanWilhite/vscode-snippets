@@ -1,0 +1,57 @@
+{
+    /*
+	 // Place your snippets for JavaScript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
+	 // Example:
+	 "Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/
+    "directive: default directives": {
+        "prefix": "dir_default",
+        "body": [
+            "/*jslint this, white, browser */",
+            "/*global _, angular, jQuery, Audio5js */"
+        ],
+        "description": "define default directives (jslint, global)"
+    },
+    "module: strict, anonymous": {
+        "prefix": "mod_strict_anon",
+        "body": [
+            "(function () {",
+            "    \"use strict\"",
+            "",
+            "    $1",
+            "",
+            "} ());"
+        ],
+        "description": "define an anonymous closure in strict mode"
+    },
+    "module: strict, anonymous, jQuery": {
+        "prefix": "mod_strict_anon_jquery",
+        "body": [
+            "(function ($) {",
+            "    \"use strict\"",
+            "",
+            "    $1",
+            "",
+            "} (jQuery));"
+        ],
+        "description": "define an anonymous closure in strict mode with jQuery global"
+    },
+    "underscore: default template settings": {
+        "prefix": "undr_template_settings",
+        "body": [
+            "_.templateSettings = {",
+            "    interpolate: /\\\\{\\\\{(.+?)\\\\}\\\\}/g",
+            "};"
+        ],
+        "description": "state the default _.template() settings"
+    }
+}
