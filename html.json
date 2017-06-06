@@ -14,4 +14,28 @@
         "description": "Log output to console"
     }
 */
+    "html: sample page (CodePen)":{
+        "prefix": "html_page_CodePen",
+        "body": [
+            "<html>",
+            "    <head>",
+            "        <meta name=\"description\" content=\"This is a sample for my self-education.\" />",
+            "        <meta charset=\"utf-8\" />",
+            "        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />",
+            "        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />",
+            "",
+            "        <link href=\"./index.css\" rel=\"stylesheet\" />",
+            "",
+            "        <script src=\"./index.js\"></script>",
+            "",
+            "        <title>${1:title}</title>",
+            "    </head>",
+            "    <body>",
+            "        <h1>${1:title}</h1>",
+            "        $0",
+            "    </body>",
+            "</html>"
+        ],
+        "description": "convention HTML sample page, mirroring CodePen.io entries"
+    }
 }
