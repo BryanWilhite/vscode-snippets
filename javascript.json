@@ -1,25 +1,32 @@
 {
     /*
-	 // Place your snippets for JavaScript here. Each snippet is defined under a snippet name and has a prefix, body and 
-	 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
-	 // Example:
-	 "Print to console": {
-		"prefix": "log",
-		"body": [
-			"console.log('$1');",
-			"$2"
-		],
-		"description": "Log output to console"
-	}
+     // Place your snippets for JavaScript here. Each snippet is defined under a snippet name and has a prefix, body and 
+     // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+     // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
+     // Example:
+     "Print to console": {
+        "prefix": "log",
+        "body": [
+            "console.log('$1');",
+            "$2"
+        ],
+        "description": "Log output to console"
+    }
 */
-    "directive: default directives": {
-        "prefix": "dir_default",
+    "jslint: angular directives": {
+        "prefix": "jslint_dir_default",
         "body": [
             "/*jslint this, white, browser */",
             "/*global _, angular, jQuery, Audio5js */"
         ],
         "description": "define default directives (jslint, global)"
+    },
+    "jslint: node directives": {
+        "prefix": "jslint_dir_default",
+        "body": [
+            "/*jslint node: true */"
+        ],
+        "description": "define node.js directives (jslint)"
     },
     "module: strict, anonymous": {
         "prefix": "mod_strict_anon",
@@ -39,14 +46,14 @@
             "(function ($) {",
             "    \"use strict\"",
             "",
-            "    $1",
+            "    $0",
             "",
             "} (jQuery));"
         ],
         "description": "define an anonymous closure in strict mode with jQuery global"
     },
     "underscore: default template settings": {
-        "prefix": "undr_template_settings",
+        "prefix": "under_template_settings",
         "body": [
             "_.templateSettings = {",
             "    interpolate: /\\\\{\\\\{(.+?)\\\\}\\\\}/g",
