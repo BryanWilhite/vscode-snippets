@@ -1,0 +1,105 @@
+{
+    "cSpell disable block": {
+        "prefix": "cSpell_disable",
+        "body": [
+            "<!-- cSpell:disable -->",
+            "$0",
+            "<!-- cSpell:enable -->"
+        ],
+        "description": "image tag with float style and link"
+    },
+    "div centering with image": {
+        "prefix": "div_with_image",
+        "body": [
+            "<div style=\"text-align:center\">",
+            "![${1:caption}](http://kintespace.com/bitmaps/$0 \"${1:caption}\")",
+            "</div>"
+        ],
+        "description": "div tag with centering style and image markdown"
+    },
+    "image with anchor": {
+        "prefix": "image_with_anchor",
+        "body": [
+            "<!-- cSpell:disable -->",
+            "<a href=\"${1:href}\" target=\"_blank\"><img alt=\"${2:alt}\" src=\"${3:src}\" style=\"float:$0right;margin:16px;\" /></a>",
+            "<!-- cSpell:enable -->"
+        ],
+        "description": "image tag with float style and link"
+    },
+    "glyphs: bullet item with quotes": {
+        "prefix": "glyphs_list_item_quotes",
+        "body": [
+            "* “$0”"
+        ],
+        "description": "glyphs: bullet list item with quotes"
+    },
+    "glyphs: chevron back": {
+        "prefix": "glyphs_chevron_back",
+        "body": [
+            "«$0"
+        ],
+        "description": "glyphs: chevron back"
+    },
+    "glyphs: chevron forward": {
+        "prefix": "glyphs_chevron_fwd",
+        "body": [
+            "»$0"
+        ],
+        "description": "glyphs: chevron forward"
+    },
+    "glyphs: em dash": {
+        "prefix": "glyphs_em_dash",
+        "body": [
+            "—$0"
+        ],
+        "description": "glyphs: em dash"
+    },
+    "glyphs: numerical range": {
+        "prefix": "glyphs_num_range",
+        "body": [
+            "$1–$2$0"
+        ],
+        "description": "glyphs: numerical range"
+    },
+    "glyphs: quotes": {
+        "prefix": "glyphs_quotes",
+        "body": [
+            "“$0”"
+        ],
+        "description": "glyphs quotes"
+    },
+    "glyphs: single quotes": {
+        "prefix": "glyphs_single_quotes",
+        "body": [
+            "‘$0’"
+        ],
+        "description": "glyphs single quotes"
+    },
+    "span with float": {
+        "prefix": "span_with_float",
+        "body": [
+            "<span style=\"float:right;margin:16px\">",
+            "$0",
+            "</span>"
+        ],
+        "description": "span tag with float style"
+    },
+    "title as comment": {
+        "prefix": "title_as_comment",
+        "body": [
+            "<!--",
+            "    title: $0",
+            "-->"
+        ],
+        "description": "title of document in comment format"
+    },
+    "YouTube: embed": {
+        "prefix": "youtube_embed",
+        "body": [
+            "<!-- cSpell:disable -->",
+            "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/$0\" frameborder=\"0\" allowfullscreen style=\"display: block; margin: 0 auto;\"></iframe>",
+            "<!-- cSpell:enable -->"
+        ],
+        "description": "YouTube embed inline frame"
+    }
+}
