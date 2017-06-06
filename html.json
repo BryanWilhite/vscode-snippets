@@ -17,6 +17,7 @@
     "html: sample page (CodePen)":{
         "prefix": "html_page_CodePen",
         "body": [
+            "<!DOCTYPE html>",
             "<html>",
             "    <head>",
             "        <meta name=\"description\" content=\"This is a sample for my self-education.\" />",

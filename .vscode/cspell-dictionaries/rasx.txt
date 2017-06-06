@@ -1,5 +1,7 @@
 appdata
 codepen
+doctype
 rasx
 songhay
+stylesheet
 xhtml
