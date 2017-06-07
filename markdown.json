@@ -12,7 +12,9 @@
         "prefix": "div_with_image",
         "body": [
             "<div style=\"text-align:center\">",
+            "",
             "![${1:caption}](http://kintespace.com/bitmaps/$0 \"${1:caption}\")",
+            "",
             "</div>"
         ],
         "description": "div tag with centering style and image markdown"
@@ -79,7 +81,9 @@
         "prefix": "span_with_float",
         "body": [
             "<span style=\"float:right;margin:16px\">",
+            "",
             "$0",
+            "",
             "</span>"
         ],
         "description": "span tag with float style"
