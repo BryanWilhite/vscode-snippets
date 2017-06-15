@@ -1,20 +1,20 @@
 {
-    "jslint: angular directives": {
+    "Insert jslint: angular directives": {
         "prefix": "jslint declaration angular",
         "body": [
             "/*jslint this, white, browser */",
             "/*global _, angular, jQuery, Audio5js */"
         ],
-        "description": "jslint: angular directives"
+        "description": "Insert jslint: angular directives"
     },
-    "jslint: node directives": {
+    "Insert jslint: node directives": {
         "prefix": "jslint declaration node",
         "body": [
             "/*jslint node: true */"
         ],
-        "description": "jslint: node directives"
+        "description": "Insert jslint: node directives"
     },
-    "module: strict, anonymous": {
+    "Insert module: strict, anonymous": {
         "prefix": "module",
         "body": [
             "(function () {",
@@ -24,9 +24,9 @@
             "",
             "} ());"
         ],
-        "description": "module: strict, anonymous"
+        "description": "Insert module: strict, anonymous"
     },
-    "module: strict, anonymous, jQuery": {
+    "Insert module: strict, anonymous, jQuery": {
         "prefix": "module jQuery",
         "body": [
             "(function ($) {",
@@ -36,15 +36,15 @@
             "",
             "} (jQuery));"
         ],
-        "description": "module: strict, anonymous, jQuery"
+        "description": "Insert module: strict, anonymous, jQuery"
     },
-    "underscore: default template settings": {
+    "Insert underscore: default template settings": {
         "prefix": "underscore templateSettings",
         "body": [
             "_.templateSettings = {",
             "    interpolate: /\\\\{\\\\{(.+?)\\\\}\\\\}/g",
             "};"
         ],
-        "description": "underscore: default template settings"
+        "description": "Insert underscore: default template settings"
     }
 }
