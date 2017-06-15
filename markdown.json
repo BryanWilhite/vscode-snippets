@@ -1,15 +1,15 @@
 {
-    "cSpell disable block": {
-        "prefix": "cSpell_disable",
+    "Insert block: cSpell disable": {
+        "prefix": "cSpell disable",
         "body": [
             "<!-- cSpell:disable -->",
             "$0",
             "<!-- cSpell:enable -->"
         ],
-        "description": "image tag with float style and link"
+        "description": "Insert block: cSpell disable"
     },
-    "div centering with image": {
-        "prefix": "div_with_image",
+    "Insert block: div text centering with image": {
+        "prefix": "div text centering with image",
         "body": [
             "<div style=\"text-align:center\">",
             "",
@@ -17,68 +17,19 @@
             "",
             "</div>"
         ],
-        "description": "div tag with centering style and image markdown"
+        "description": "Insert block: div text centering with image"
     },
-    "image with anchor": {
-        "prefix": "image_with_anchor",
+    "Insert block: image with anchor": {
+        "prefix": "image with anchor",
         "body": [
             "<!-- cSpell:disable -->",
             "<a href=\"${1:href}\" target=\"_blank\"><img alt=\"${2:alt}\" src=\"${3:src}\" style=\"float:$0right;margin:16px;\" /></a>",
             "<!-- cSpell:enable -->"
         ],
-        "description": "image tag with float style and link"
+        "description": "Insert block: image with anchor"
     },
-    "glyphs: bullet item with quotes": {
-        "prefix": "glyphs_list_item_quotes",
-        "body": [
-            "* “$0”"
-        ],
-        "description": "glyphs: bullet list item with quotes"
-    },
-    "glyphs: chevron back": {
-        "prefix": "glyphs_chevron_back",
-        "body": [
-            "«$0"
-        ],
-        "description": "glyphs: chevron back"
-    },
-    "glyphs: chevron forward": {
-        "prefix": "glyphs_chevron_fwd",
-        "body": [
-            "»$0"
-        ],
-        "description": "glyphs: chevron forward"
-    },
-    "glyphs: em dash": {
-        "prefix": "glyphs_em_dash",
-        "body": [
-            "—$0"
-        ],
-        "description": "glyphs: em dash"
-    },
-    "glyphs: numerical range": {
-        "prefix": "glyphs_num_range",
-        "body": [
-            "$1–$2$0"
-        ],
-        "description": "glyphs: numerical range"
-    },
-    "glyphs: quotes": {
-        "prefix": "glyphs_quotes",
-        "body": [
-            "“$0”"
-        ],
-        "description": "glyphs quotes"
-    },
-    "glyphs: single quotes": {
-        "prefix": "glyphs_single_quotes",
-        "body": [
-            "‘$0’"
-        ],
-        "description": "glyphs single quotes"
-    },
-    "span with float": {
-        "prefix": "span_with_float",
+    "Insert block: span with float": {
+        "prefix": "span with float",
         "body": [
             "<span style=\"float:right;margin:16px\">",
             "",
@@ -86,24 +37,94 @@
             "",
             "</span>"
         ],
-        "description": "span tag with float style"
+        "description": "Insert block: span with float"
     },
-    "title as comment": {
-        "prefix": "title_as_comment",
+    "Insert block: title as comment": {
+        "prefix": "title as comment",
         "body": [
             "<!--",
             "    title: $0",
             "-->"
         ],
-        "description": "title of document in comment format"
+        "description": "Insert block: title as comment"
     },
-    "YouTube: embed": {
-        "prefix": "youtube_embed",
+    "Insert block: YouTube embed": {
+        "prefix": "YouTube embed",
         "body": [
             "<!-- cSpell:disable -->",
             "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/$0\" frameborder=\"0\" allowfullscreen style=\"display: block; margin: 0 auto;\"></iframe>",
             "<!-- cSpell:enable -->"
         ],
-        "description": "YouTube embed inline frame"
+        "description": "Insert block: YouTube embed"
+    },
+    "Insert glyph: chevron back": {
+        "prefix": "chevron back",
+        "body": [
+            "«$0"
+        ],
+        "description": "Insert glyph: chevron back"
+    },
+    "Insert glyph: chevron forward": {
+        "prefix": "chevron forward",
+        "body": [
+            "»$0"
+        ],
+        "description": "Insert glyph: chevron forward"
+    },
+    "Insert glyph: em dash": {
+        "prefix": "em dash",
+        "body": [
+            "—$0"
+        ],
+        "description": "Insert glyph: em dash"
+    },
+    "Insert glyph: en dash": {
+        "prefix": "en dash",
+        "body": [
+            "–$0"
+        ],
+        "description": "Insert glyph: en dash"
+    },
+    "Insert glyph: numerical range": {
+        "prefix": "numerical range",
+        "body": [
+            "$1–$2$0"
+        ],
+        "description": "glyphs: numerical range"
+    },
+    "Insert glyphs: bullet item with quotes": {
+        "prefix": "bullet item with quotes",
+        "body": [
+            "* “$0”"
+        ],
+        "description": "Insert glyphs: bullet item with quotes"
+    },
+    "Insert glyphs: single quotes": {
+        "prefix": "single quotes",
+        "body": [
+            "‘${0:${TM_SELECTED_TEXT}}’"
+        ],
+        "description": "Insert glyphs: ‘single’ quotes"
+    },
+    "Insert glyphs: smart quotes": {
+        "prefix": "smart quotes",
+        "body": [
+            "“${0:${TM_SELECTED_TEXT}}”"
+        ],
+        "description": "Insert glyphs: “smart” quotes"
+    },
+    "Insert inline: subscript": {
+        "prefix": "subscript",
+        "body": [
+            "<sub></sub>"
+        ],
+        "description": "Insert inline: superscript"
+    },
+    "Insert inline: superscript": {
+        "prefix": "superscript",
+        "body": [
+            "<sup></sup>"
+        ],
+        "description": "Insert inline: superscript"
     }
 }
