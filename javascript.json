@@ -1,35 +1,21 @@
 {
-    /*
-     // Place your snippets for JavaScript here. Each snippet is defined under a snippet name and has a prefix, body and 
-     // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-     // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
-     // Example:
-     "Print to console": {
-        "prefix": "log",
-        "body": [
-            "console.log('$1');",
-            "$2"
-        ],
-        "description": "Log output to console"
-    }
-*/
     "jslint: angular directives": {
-        "prefix": "jslint_dir_default",
+        "prefix": "jslint declaration angular",
         "body": [
             "/*jslint this, white, browser */",
             "/*global _, angular, jQuery, Audio5js */"
         ],
-        "description": "define default directives (jslint, global)"
+        "description": "jslint: angular directives"
     },
     "jslint: node directives": {
-        "prefix": "jslint_dir_default",
+        "prefix": "jslint declaration node",
         "body": [
             "/*jslint node: true */"
         ],
-        "description": "define node.js directives (jslint)"
+        "description": "jslint: node directives"
     },
     "module: strict, anonymous": {
-        "prefix": "mod_strict_anon",
+        "prefix": "module",
         "body": [
             "(function () {",
             "    \"use strict\"",
@@ -38,10 +24,10 @@
             "",
             "} ());"
         ],
-        "description": "define an anonymous closure in strict mode"
+        "description": "module: strict, anonymous"
     },
     "module: strict, anonymous, jQuery": {
-        "prefix": "mod_strict_anon_jquery",
+        "prefix": "module jQuery",
         "body": [
             "(function ($) {",
             "    \"use strict\"",
@@ -50,15 +36,15 @@
             "",
             "} (jQuery));"
         ],
-        "description": "define an anonymous closure in strict mode with jQuery global"
+        "description": "module: strict, anonymous, jQuery"
     },
     "underscore: default template settings": {
-        "prefix": "under_template_settings",
+        "prefix": "underscore templateSettings",
         "body": [
             "_.templateSettings = {",
             "    interpolate: /\\\\{\\\\{(.+?)\\\\}\\\\}/g",
             "};"
         ],
-        "description": "state the default _.template() settings"
+        "description": "underscore: default template settings"
     }
 }
