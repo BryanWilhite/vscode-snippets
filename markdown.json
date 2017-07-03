@@ -120,17 +120,24 @@
         ],
         "description": "Insert glyphs: “smart” quotes"
     },
+    "Insert inline: span": {
+        "prefix": "span",
+        "body": [
+            "<span>${0:${TM_SELECTED_TEXT}}</span>"
+        ],
+        "description": "Insert inline: span"
+    },
     "Insert inline: subscript": {
         "prefix": "subscript",
         "body": [
-            "<sub></sub>"
+            "<sub>${0:${TM_SELECTED_TEXT}}</sub>"
         ],
         "description": "Insert inline: superscript"
     },
     "Insert inline: superscript": {
         "prefix": "superscript",
         "body": [
-            "<sup></sup>"
+            "<sup>${0:${TM_SELECTED_TEXT}}</sup>"
         ],
         "description": "Insert inline: superscript"
     }
