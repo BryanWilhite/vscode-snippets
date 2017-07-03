@@ -57,6 +57,13 @@
         ],
         "description": "Insert block: YouTube embed"
     },
+     "Insert entity: non-breaking space": {
+        "prefix": "nbsp",
+        "body": [
+            "&#160;$0"
+        ],
+        "description": "Insert entity: non-breaking space"
+    },
     "Insert glyph: chevron back": {
         "prefix": "chevron back",
         "body": [
@@ -78,14 +85,14 @@
         ],
         "description": "Insert glyph: em dash"
     },
-    "Insert glyph: en dash": {
+     "Insert glyph: en dash": {
         "prefix": "en dash",
         "body": [
             "–$0"
         ],
         "description": "Insert glyph: en dash"
     },
-    "Insert glyph: numerical range": {
+   "Insert glyph: numerical range": {
         "prefix": "numerical range",
         "body": [
             "$1–$2$0"
