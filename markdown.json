@@ -64,6 +64,13 @@
         ],
         "description": "Insert entity: non-breaking space"
     },
+    "Insert glyphs: apostrophe": {
+        "prefix": "apostrophe",
+        "body": [
+            "’$0"
+        ],
+        "description": "Insert glyphs: apostrophe"
+    },
     "Insert glyph: chevron back": {
         "prefix": "chevron back",
         "body": [
