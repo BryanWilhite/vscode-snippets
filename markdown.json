@@ -78,6 +78,20 @@
         ],
         "description": "Insert glyph: chevron forward"
     },
+    "Insert glyph: copyright": {
+        "prefix": "copyright",
+        "body": [
+            "©$0"
+        ],
+        "description": "Insert glyph: copyright"
+    },
+     "Insert glyph: degree sign": {
+        "prefix": "degree sign",
+        "body": [
+            "°$0"
+        ],
+        "description": "Insert glyph: degree sign"
+    },
     "Insert glyph: em dash": {
         "prefix": "em dash",
         "body": [
@@ -91,6 +105,34 @@
             "–$0"
         ],
         "description": "Insert glyph: en dash"
+    },
+     "Insert glyph: Euro sign": {
+        "prefix": "Euro sign",
+        "body": [
+            "€$0"
+        ],
+        "description": "Insert glyph: Euro sign"
+    },
+     "Insert glyph: multiplication sign": {
+        "prefix": "multiplication sign",
+        "body": [
+            "×$0"
+        ],
+        "description": "Insert glyph: multiplication sign"
+    },
+     "Insert glyph: pound sign": {
+        "prefix": "pound sign",
+        "body": [
+            "£$0"
+        ],
+        "description": "Insert glyph: pound sign"
+    },
+     "Insert glyph: registered trademark": {
+        "prefix": "registered trademark",
+        "body": [
+            "®$0"
+        ],
+        "description": "Insert glyph: registered trademark"
     },
    "Insert glyph: numerical range": {
         "prefix": "numerical range",
