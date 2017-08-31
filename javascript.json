@@ -18,9 +18,9 @@
         "prefix": "module",
         "body": [
             "(function () {",
-            "    \"use strict\"",
+            "    \"use strict\";",
             "",
-            "    $1",
+            "    {0:${TM_SELECTED_TEXT}}",
             "",
             "} ());"
         ],
@@ -30,9 +30,9 @@
         "prefix": "module jQuery",
         "body": [
             "(function ($) {",
-            "    \"use strict\"",
+            "    \"use strict\";",
             "",
-            "    $0",
+            "    {0:${TM_SELECTED_TEXT}}",
             "",
             "} (jQuery));"
         ],
