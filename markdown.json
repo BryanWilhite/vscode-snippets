@@ -1,23 +1,28 @@
 {
     "Insert block: cSpell disable": {
         "prefix": "cSpell disable",
-        "body": [
-            "<!-- cSpell:disable -->",
-            "$0",
-            "<!-- cSpell:enable -->"
-        ],
+        "body": ["<!-- cSpell:disable -->", "$0", "<!-- cSpell:enable -->"],
         "description": "Insert block: cSpell disable"
     },
     "Insert block: div text centering": {
         "prefix": "div text centering",
-        "body": [
-            "<div style=\"text-align:center\">",
-            "",
-            "$0",
-            "",
-            "</div>"
-        ],
+        "body": ["<div style=\"text-align:center\">", "", "$0", "", "</div>"],
         "description": "Insert block: div text centering"
+    },
+    "Insert block: GitHub Gist iframe": {
+        "prefix": "GitHub Gist iframe",
+        "body": [
+            "<!-- cSpell:disable -->",
+            "<iframe class=\"rx-inline-frame\"",
+            "    onload=\"this.style.height=this.contentDocument.body.scrollHeight +'px';\"",
+            "    height=\"100%\" width=\"100%\"",
+            "    frameborder=\"0\" border=\"0\"",
+            "    scrolling=\"no\"",
+            "    src=\"./Inline/GitHubGist/${1:gistId}\">",
+            "</iframe>",
+            "<!-- cSpell:enable -->"
+        ],
+        "description": "Insert block: GitHub Gist iframe"
     },
     "Insert block: image with anchor": {
         "prefix": "image with anchor",
@@ -50,11 +55,7 @@
     },
     "Insert block: title as comment": {
         "prefix": "title as comment",
-        "body": [
-            "<!--",
-            "    title: $0",
-            "-->"
-        ],
+        "body": ["<!--", "    title: $0", "-->"],
         "description": "Insert block: title as comment"
     },
     "Insert block: YouTube embed": {
@@ -66,137 +67,99 @@
         ],
         "description": "Insert block: YouTube embed"
     },
-     "Insert entity: non-breaking space": {
+    "Insert entity: non-breaking space": {
         "prefix": "nbsp",
-        "body": [
-            "&#160;$0"
-        ],
+        "body": ["&#160;$0"],
         "description": "Insert entity: non-breaking space"
     },
     "Insert glyphs: apostrophe": {
         "prefix": "apostrophe",
-        "body": [
-            "’$0"
-        ],
+        "body": ["’$0"],
         "description": "Insert glyphs: apostrophe"
     },
     "Insert glyph: chevron back": {
         "prefix": "chevron back",
-        "body": [
-            "«$0"
-        ],
+        "body": ["«$0"],
         "description": "Insert glyph: chevron back"
     },
     "Insert glyph: chevron forward": {
         "prefix": "chevron forward",
-        "body": [
-            "»$0"
-        ],
+        "body": ["»$0"],
         "description": "Insert glyph: chevron forward"
     },
     "Insert glyph: copyright": {
         "prefix": "copyright",
-        "body": [
-            "©$0"
-        ],
+        "body": ["©$0"],
         "description": "Insert glyph: copyright"
     },
-     "Insert glyph: degree sign": {
+    "Insert glyph: degree sign": {
         "prefix": "degree sign",
-        "body": [
-            "°$0"
-        ],
+        "body": ["°$0"],
         "description": "Insert glyph: degree sign"
     },
     "Insert glyph: em dash": {
         "prefix": "em dash",
-        "body": [
-            "—$0"
-        ],
+        "body": ["—$0"],
         "description": "Insert glyph: em dash"
     },
-     "Insert glyph: en dash": {
+    "Insert glyph: en dash": {
         "prefix": "en dash",
-        "body": [
-            "–$0"
-        ],
+        "body": ["–$0"],
         "description": "Insert glyph: en dash"
     },
-     "Insert glyph: Euro sign": {
+    "Insert glyph: Euro sign": {
         "prefix": "Euro sign",
-        "body": [
-            "€$0"
-        ],
+        "body": ["€$0"],
         "description": "Insert glyph: Euro sign"
     },
-     "Insert glyph: multiplication sign": {
+    "Insert glyph: multiplication sign": {
         "prefix": "multiplication sign",
-        "body": [
-            "×$0"
-        ],
+        "body": ["×$0"],
         "description": "Insert glyph: multiplication sign"
     },
-     "Insert glyph: pound sign": {
+    "Insert glyph: pound sign": {
         "prefix": "pound sign",
-        "body": [
-            "£$0"
-        ],
+        "body": ["£$0"],
         "description": "Insert glyph: pound sign"
     },
-     "Insert glyph: registered trademark": {
+    "Insert glyph: registered trademark": {
         "prefix": "registered trademark",
-        "body": [
-            "®$0"
-        ],
+        "body": ["®$0"],
         "description": "Insert glyph: registered trademark"
     },
-   "Insert glyph: numerical range": {
+    "Insert glyph: numerical range": {
         "prefix": "numerical range",
-        "body": [
-            "$1–$2$0"
-        ],
+        "body": ["$1–$2$0"],
         "description": "glyphs: numerical range"
     },
     "Insert glyphs: bullet item with quotes": {
         "prefix": "bullet item with quotes",
-        "body": [
-            "* “$0”"
-        ],
+        "body": ["* “$0”"],
         "description": "Insert glyphs: bullet item with quotes"
     },
     "Insert glyphs: single quotes": {
         "prefix": "single quotes",
-        "body": [
-            "‘${0:${TM_SELECTED_TEXT}}’"
-        ],
+        "body": ["‘${0:${TM_SELECTED_TEXT}}’"],
         "description": "Insert glyphs: ‘single’ quotes"
     },
     "Insert glyphs: smart quotes": {
         "prefix": "smart quotes",
-        "body": [
-            "“${0:${TM_SELECTED_TEXT}}”"
-        ],
+        "body": ["“${0:${TM_SELECTED_TEXT}}”"],
         "description": "Insert glyphs: “smart” quotes"
     },
     "Insert inline: span": {
         "prefix": "span",
-        "body": [
-            "<span>${0:${TM_SELECTED_TEXT}}</span>"
-        ],
+        "body": ["<span>${0:${TM_SELECTED_TEXT}}</span>"],
         "description": "Insert inline: span"
     },
     "Insert inline: subscript": {
         "prefix": "subscript",
-        "body": [
-            "<sub>${0:${TM_SELECTED_TEXT}}</sub>"
-        ],
+        "body": ["<sub>${0:${TM_SELECTED_TEXT}}</sub>"],
         "description": "Insert inline: superscript"
     },
     "Insert inline: superscript": {
         "prefix": "superscript",
-        "body": [
-            "<sup>${0:${TM_SELECTED_TEXT}}</sup>"
-        ],
+        "body": ["<sup>${0:${TM_SELECTED_TEXT}}</sup>"],
         "description": "Insert inline: superscript"
     }
 }
