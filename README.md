@@ -11,3 +11,5 @@ I used [a snippet file from the Visual Studio Code team](https://github.com/Micr
 ## invoking snippets
 
 The `Ctrl+Space` invocation of snippets seems to display “no suggestions” when text is selected. The [Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) can be used to find the Insert Snippet command.
+
+@[BryanWilhite](https://twitter.com/BryanWilhite)

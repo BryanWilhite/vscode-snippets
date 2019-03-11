@@ -1,5 +1,5 @@
 {
-    "Insert html: sample page (CodePen)":{
+    "Insert html: sample page (CodePen)": {
         "prefix": "sample page (CodePen)",
         "body": [
             "<!DOCTYPE html>",
@@ -23,5 +23,85 @@
             "</html>"
         ],
         "description": "Insert html: sample page (CodePen)"
+    },
+    "Insert entity: non-breaking space": {
+        "prefix": "nbsp",
+        "body": ["&#160;$0"],
+        "description": "Insert entity: non-breaking space"
+    },
+    "Insert glyphs: apostrophe": {
+        "prefix": "apostrophe",
+        "body": ["’$0"],
+        "description": "Insert glyphs: apostrophe"
+    },
+    "Insert glyph: chevron back": {
+        "prefix": "chevron back",
+        "body": ["«$0"],
+        "description": "Insert glyph: chevron back"
+    },
+    "Insert glyph: chevron forward": {
+        "prefix": "chevron forward",
+        "body": ["»$0"],
+        "description": "Insert glyph: chevron forward"
+    },
+    "Insert glyph: copyright": {
+        "prefix": "copyright",
+        "body": ["©$0"],
+        "description": "Insert glyph: copyright"
+    },
+    "Insert glyph: degree sign": {
+        "prefix": "degree sign",
+        "body": ["°$0"],
+        "description": "Insert glyph: degree sign"
+    },
+    "Insert glyph: em dash": {
+        "prefix": "em dash",
+        "body": ["—$0"],
+        "description": "Insert glyph: em dash"
+    },
+    "Insert glyph: en dash": {
+        "prefix": "en dash",
+        "body": ["–$0"],
+        "description": "Insert glyph: en dash"
+    },
+    "Insert glyph: Euro sign": {
+        "prefix": "Euro sign",
+        "body": ["€$0"],
+        "description": "Insert glyph: Euro sign"
+    },
+    "Insert glyph: multiplication sign": {
+        "prefix": "multiplication sign",
+        "body": ["×$0"],
+        "description": "Insert glyph: multiplication sign"
+    },
+    "Insert glyph: pound sign": {
+        "prefix": "pound sign",
+        "body": ["£$0"],
+        "description": "Insert glyph: pound sign"
+    },
+    "Insert glyph: registered trademark": {
+        "prefix": "registered trademark",
+        "body": ["®$0"],
+        "description": "Insert glyph: registered trademark"
+    },
+    "Insert glyph: numerical range": {
+        "prefix": "numerical range",
+        "body": ["$1–$2$0"],
+        "description": "glyphs: numerical range"
+    },
+    "Insert glyphs: bullet item with quotes": {
+        "prefix": "bullet item with quotes",
+        "body": ["* “$0”"],
+        "description": "Insert glyphs: bullet item with quotes"
+    },
+    "Insert glyphs: single quotes": {
+        "prefix": "single quotes",
+        "body": ["‘${0:${TM_SELECTED_TEXT}}’"],
+        "description": "Insert glyphs: ‘single’ quotes"
+    },
+    "Insert glyphs: smart quotes": {
+        "prefix": "smart quotes",
+        "body": ["“${0:${TM_SELECTED_TEXT}}”"],
+        "description": "Insert glyphs: “smart” quotes"
     }
 }

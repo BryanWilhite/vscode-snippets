@@ -161,5 +161,10 @@
         "prefix": "superscript",
         "body": ["<sup>${0:${TM_SELECTED_TEXT}}</sup>"],
         "description": "Insert inline: superscript"
+    },
+    "Insert signature: twitter": {
+        "prefix": "signature: twitter",
+        "body": ["@[BryanWilhite](https://twitter.com/BryanWilhite)"],
+        "description": "Insert signature: twitter"
     }
 }
