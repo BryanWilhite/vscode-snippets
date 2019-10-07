@@ -24,6 +24,11 @@
         ],
         "description": "Insert block: GitHub Gist iframe"
     },
+    "Insert block: GitHub gist: script: BryanWilhite": {
+        "prefix": "GitHub gist: script: BryanWilhite",
+        "body": ["<script src=\"https://gist.github.com/BryanWilhite/${0:${TM_SELECTED_TEXT}}.js\"></script>"],
+        "description": "Insert block: GitHub gist: script: BryanWilhite"
+    },
     "Insert block: image with anchor": {
         "prefix": "image with anchor",
         "body": [
@@ -162,9 +167,14 @@
         "body": ["<sup>${0:${TM_SELECTED_TEXT}}</sup>"],
         "description": "Insert inline: superscript"
     },
-    "Insert signature: twitter": {
+    "Insert signature: twitter: Kintespace": {
+        "prefix": "signature: twitter",
+        "body": ["@[Kintespace](https://twitter.com/Kintespace)"],
+        "description": "Insert signature: twitter: Kintespace"
+    },
+    "Insert signature: twitter: BryanWilhite": {
         "prefix": "signature: twitter",
         "body": ["@[BryanWilhite](https://twitter.com/BryanWilhite)"],
-        "description": "Insert signature: twitter"
+        "description": "Insert signature: twitter: BryanWilhite"
     }
 }
