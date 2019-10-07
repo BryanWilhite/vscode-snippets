@@ -9,26 +9,6 @@
         "body": ["<div style=\"text-align:center\">", "", "$0", "", "</div>"],
         "description": "Insert block: div text centering"
     },
-    "Insert block: GitHub Gist iframe": {
-        "prefix": "GitHub Gist iframe",
-        "body": [
-            "<!-- cSpell:disable -->",
-            "<iframe class=\"rx-inline-frame\"",
-            "    onload=\"this.style.height=this.contentDocument.body.scrollHeight +'px';\"",
-            "    height=\"100%\" width=\"100%\"",
-            "    frameborder=\"0\" border=\"0\"",
-            "    scrolling=\"no\"",
-            "    src=\"./Inline/GitHubGist/${1:gistId}\">",
-            "</iframe>",
-            "<!-- cSpell:enable -->"
-        ],
-        "description": "Insert block: GitHub Gist iframe"
-    },
-    "Insert block: GitHub gist: script: BryanWilhite": {
-        "prefix": "GitHub gist: script: BryanWilhite",
-        "body": ["<script src=\"https://gist.github.com/BryanWilhite/${0:${TM_SELECTED_TEXT}}.js\"></script>"],
-        "description": "Insert block: GitHub gist: script: BryanWilhite"
-    },
     "Insert block: image with anchor": {
         "prefix": "image with anchor",
         "body": [
@@ -62,15 +42,6 @@
         "prefix": "title as comment",
         "body": ["<!--", "    title: $0", "-->"],
         "description": "Insert block: title as comment"
-    },
-    "Insert block: YouTube embed": {
-        "prefix": "YouTube embed",
-        "body": [
-            "<!-- cSpell:disable -->",
-            "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/$0\" frameborder=\"0\" allowfullscreen style=\"display: block; margin: 0 auto;\"></iframe>",
-            "<!-- cSpell:enable -->"
-        ],
-        "description": "Insert block: YouTube embed"
     },
     "Insert entity: non-breaking space": {
         "prefix": "nbsp",
