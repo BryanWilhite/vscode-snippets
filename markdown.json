@@ -138,6 +138,11 @@
         "body": ["<sup>${0:${TM_SELECTED_TEXT}}</sup>"],
         "description": "Insert inline: superscript"
     },
+    "Insert inline: uri brackets": {
+        "prefix": "uri brackets",
+        "body": ["<${0:${TM_SELECTED_TEXT}}>"],
+        "description": "Insert inline: uri brackets"
+    },
     "Insert signature: twitter: Kintespace": {
         "prefix": "signature: twitter",
         "body": ["@[Kintespace](https://twitter.com/Kintespace)"],
