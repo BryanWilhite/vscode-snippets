@@ -3,15 +3,16 @@
     "tasks": [
         {
             "label": "bash: deploy-snippets",
-            "command": "bash",
-            "args": [
-                "./shell/deploy-snippets.sh"
-            ],
-            "isBackground": false,
-            "options": {
-                "cwd": "${workspaceRoot}"
-            },
             "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/shell"
+            },
+            "linux": {
+                "command": "deploy-snippets.sh"
+            },
+            "windows": {
+                "command": ".\\Deploy-Snippets.ps1"
+            },
             "problemMatcher": []
         },
         {
