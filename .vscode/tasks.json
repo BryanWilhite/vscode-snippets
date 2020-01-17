@@ -8,7 +8,7 @@
                 "cwd": "${workspaceFolder}/shell"
             },
             "linux": {
-                "command": "deploy-snippets.sh"
+                "command": "./deploy-snippets.sh"
             },
             "windows": {
                 "command": ".\\Deploy-Snippets.ps1"
