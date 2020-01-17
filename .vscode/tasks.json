@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "bash: deploy-snippets",
+            "label": "deploy-snippets",
             "type": "shell",
             "options": {
                 "cwd": "${workspaceFolder}/shell"
@@ -13,21 +13,6 @@
             "windows": {
                 "command": ".\\Deploy-Snippets.ps1"
             },
-            "problemMatcher": []
-        },
-        {
-            "label": "bash: test",
-            "command": "bash",
-            "args": [
-                "-c",
-                "echo",
-                "\"test\""
-            ],
-            "isBackground": false,
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "type": "shell",
             "problemMatcher": []
         }
     ]
