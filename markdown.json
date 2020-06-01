@@ -38,6 +38,38 @@
         ],
         "description": "Insert block: span with float"
     },
+    "Insert block: table as html": {
+        "prefix": "table as html",
+        "body": [
+            "<table>",
+            "<tbody>",
+            "",
+            "<tr valign=\"top\">",
+            "<td width=\"50%\">",
+            "",
+            "$0",
+            "",
+            "</td>",
+            "<td>",
+            "",
+            "x",
+            "",
+            "</td>",
+            "</tr>",
+            "</tbody>",
+            "</table>"
+        ],
+        "description": "Insert block: table as html"
+    },
+    "Insert block: table as markdown": {
+        "prefix": "table as markdown",
+        "body": [
+            "| $0 | |",
+            "|-|-|",
+            "| | |"
+        ],
+        "description": "Insert block: table as markdown"
+    },
     "Insert block: title as comment": {
         "prefix": "title as comment",
         "body": ["<!--", "    title: $0", "-->"],
