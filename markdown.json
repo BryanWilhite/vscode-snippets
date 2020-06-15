@@ -85,6 +85,181 @@
         "body": ["’$0"],
         "description": "Insert glyphs: apostrophe"
     },
+    "Insert glyphs: b-moji: all over it and timely": {
+        "prefix": "b-moji: all over it and timely",
+        "body": ["🐙🕗$0"],
+        "description": "Insert glyphs: b-moji: all over it and timely"
+    },
+    "Insert glyphs: b-moji: appreciation": {
+        "prefix": "b-moji: appreciation",
+        "body": ["👍$0"],
+        "description": "Insert glyphs: b-moji: appreciation"
+    },
+    "Insert glyphs: b-moji: cloud app": {
+        "prefix": "b-moji: cloud app",
+        "body": ["☁⚙$0"],
+        "description": "Insert glyphs: b-moji: cloud app"
+    },
+    "Insert glyphs: b-moji: committing breaking changes": {
+        "prefix": "b-moji: committing breaking changes",
+        "body": ["😬🔥$0"],
+        "description": "Insert glyphs: b-moji: committing breaking changes"
+    },
+    "Insert glyphs: b-moji: committing incomplete unit of work": {
+        "prefix": "b-moji: committing incomplete unit of work",
+        "body": ["😬🤷🚧$0"],
+        "description": "Insert glyphs: b-moji: committing incomplete unit of work"
+    },
+    "Insert glyphs: b-moji: configuration changes": {
+        "prefix": "b-moji: configuration changes",
+        "body": ["❆📝$0"],
+        "description": "Insert glyphs: b-moji: configuration changes"
+    },
+    "Insert glyphs: b-moji: document authoring": {
+        "prefix": "b-moji: document authoring",
+        "body": ["✍📜$0"],
+        "description": "Insert glyphs: b-moji: document authoring"
+    },
+    "Insert glyphs: b-moji: document styling": {
+        "prefix": "b-moji: document styling",
+        "body": ["📜📜💄$0"],
+        "description": "Insert glyphs: b-moji: document styling"
+    },
+    "Insert glyphs: b-moji: documentation release": {
+        "prefix": "b-moji: documentation release",
+        "body": ["📚🚀$0"],
+        "description": "Insert glyphs: b-moji: documentation release"
+    },
+    "Insert glyphs: b-moji: failing test coverage changes": {
+        "prefix": "b-moji: failing test coverage changes",
+        "body": ["☔🔨🎈$0"],
+        "description": "Insert glyphs: b-moji: failing test coverage changes"
+    },
+    "Insert glyphs: b-moji: folder": {
+        "prefix": "b-moji: folder",
+        "body": ["📁$0"],
+        "description": "Insert glyphs: b-moji: folder"
+    },
+    "Insert glyphs: b-moji: generate documents": {
+        "prefix": "b-moji: generate documents",
+        "body": ["📜📜⚙✨$0"],
+        "description": "Insert glyphs: b-moji: generate documents"
+    },
+    "Insert glyphs: b-moji: generate files": {
+        "prefix": "b-moji: generate files",
+        "body": ["🚜⚙✨$0"],
+        "description": "Insert glyphs: b-moji: generate files"
+    },
+    "Insert glyphs: b-moji: graphic design": {
+        "prefix": "b-moji: graphic design",
+        "body": ["🖼$0"],
+        "description": "Insert glyphs: b-moji: graphic design"
+    },
+    "Insert glyphs: b-moji: graphic layout": {
+        "prefix": "b-moji: graphic layout",
+        "body": ["🖽$0"],
+        "description": "Insert glyphs: b-moji: graphic layout"
+    },
+    "Insert glyphs: b-moji: graphic layout (revision)": {
+        "prefix": "b-moji: graphic layout (revision)",
+        "body": ["🖾🔨🖽$0"],
+        "description": "Insert glyphs: b-moji: graphic layout (revision)"
+    },
+    "Insert glyphs: b-moji: legacy app": {
+        "prefix": "b-moji: legacy app",
+        "body": ["🏭⚙$0"],
+        "description": "Insert glyphs: b-moji: legacy app"
+    },
+    "Insert glyphs: b-moji: motion picture": {
+        "prefix": "b-moji: motion picture",
+        "body": ["🎥$0"],
+        "description": "Insert glyphs: b-moji: motion picture"
+    },
+    "Insert glyphs: b-moji: new work": {
+        "prefix": "b-moji: new work",
+        "body": ["✨$0"],
+        "description": "Insert glyphs: b-moji: new work"
+    },
+    "Insert glyphs: b-moji: on me mobile": {
+        "prefix": "b-moji: on me mobile",
+        "body": ["📲$0"],
+        "description": "Insert glyphs: b-moji: on me mobile"
+    },
+    "Insert glyphs: b-moji: on me notebook": {
+        "prefix": "b-moji: on me notebook",
+        "body": ["→💻$0"],
+        "description": "Insert glyphs: b-moji: on me notebook"
+    },
+    "Insert glyphs: b-moji: package downgrade": {
+        "prefix": "b-moji: package downgrade",
+        "body": ["📦⇤$0"],
+        "description": "Insert glyphs: b-moji: package downgrade"
+    },
+    "Insert glyphs: b-moji: package release": {
+        "prefix": "b-moji: package release",
+        "body": ["📦🚀$0"],
+        "description": "Insert glyphs: b-moji: package release"
+    },
+    "Insert glyphs: b-moji: package upgrade": {
+        "prefix": "b-moji: package upgrade",
+        "body": ["📦↑$0"],
+        "description": "Insert glyphs: b-moji: package upgrade"
+    },
+    "Insert glyphs: b-moji: punctuation for “philosophy”": {
+        "prefix": "b-moji: punctuation for “philosophy”",
+        "body": ["🌱👁$0"],
+        "description": "Insert glyphs: b-moji: punctuation for “philosophy”"
+    },
+    "Insert glyphs: b-moji: punctuation for sincerity": {
+        "prefix": "b-moji: punctuation for sincerity",
+        "body": ["😇$0"],
+        "description": "Insert glyphs: b-moji: punctuation for sincerity"
+    },
+    "Insert glyphs: b-moji: new document": {
+        "prefix": "b-moji: new document",
+        "body": ["📜✨$0"],
+        "description": "Insert glyphs: b-moji: new document"
+    },
+    "Insert glyphs: b-moji: new files": {
+        "prefix": "b-moji: new files",
+        "body": ["🚜✨$0"],
+        "description": "Insert glyphs: b-moji: new files"
+    },
+    "Insert glyphs: b-moji: rabbit hole": {
+        "prefix": "b-moji: rabbit hole",
+        "body": ["🐇🕳$0"],
+        "description": "Insert glyphs: b-moji: rabbit hole"
+    },
+    "Insert glyphs: b-moji: really?": {
+        "prefix": "b-moji: really?",
+        "body": ["👀$0"],
+        "description": "Insert glyphs: b-moji: really?"
+    },
+    "Insert glyphs: b-moji: slow thinker": {
+        "prefix": "b-moji: slow thinker",
+        "body": ["🧠🐌$0"],
+        "description": "Insert glyphs: b-moji: slow thinker"
+    },
+    "Insert glyphs: b-moji: stuck in traffic": {
+        "prefix": "b-moji: stuck in traffic",
+        "body": ["🚚🚙🚜🚗🕗$0"],
+        "description": "Insert glyphs: b-moji: stuck in traffic"
+    },
+    "Insert glyphs: b-moji: sudden understanding": {
+        "prefix": "b-moji: sudden understanding",
+        "body": ["😲💡$0"],
+        "description": "Insert glyphs: b-moji: sudden understanding"
+    },
+    "Insert glyphs: b-moji: test changes": {
+        "prefix": "b-moji: test changes",
+        "body": ["🔬🔨$0"],
+        "description": "Insert glyphs: b-moji: test changes"
+    },
+    "Insert glyphs: b-moji: test coverage changes": {
+        "prefix": "b-moji: test coverage changes",
+        "body": ["☂🔨$0"],
+        "description": "Insert glyphs: b-moji: test coverage changes"
+    },
     "Insert glyph: chevron back": {
         "prefix": "chevron back",
         "body": ["«$0"],
@@ -105,6 +280,16 @@
         "body": ["°$0"],
         "description": "Insert glyph: degree sign"
     },
+    "Insert glyph: e with acute [lowercase]": {
+        "prefix": "e with acute [lowercase]",
+        "body": ["é$0"],
+        "description": "Insert glyph: e with acute [lowercase]"
+    },
+    "Insert glyph: ellipses": {
+        "prefix": "ellipses",
+        "body": ["…$0"],
+        "description": "Insert glyph: ellipses"
+    },
     "Insert glyph: em dash": {
         "prefix": "em dash",
         "body": ["—$0"],
@@ -119,6 +304,11 @@
         "prefix": "Euro sign",
         "body": ["€$0"],
         "description": "Insert glyph: Euro sign"
+    },
+    "Insert glyph: i with diaeresis": {
+        "prefix": "i with diaeresis",
+        "body": ["ï$0"],
+        "description": "Insert glyph: i with diaeresis"
     },
     "Insert glyph: multiplication sign": {
         "prefix": "multiplication sign",
