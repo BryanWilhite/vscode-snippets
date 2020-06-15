@@ -235,6 +235,11 @@
         "body": ["👀$0"],
         "description": "Insert glyphs: b-moji: really?"
     },
+    "Insert glyphs: b-moji: shell": {
+        "prefix": "b-moji: shell",
+        "body": ["🐚$0"],
+        "description": "Insert glyphs: b-moji: shell"
+    },
     "Insert glyphs: b-moji: slow thinker": {
         "prefix": "b-moji: slow thinker",
         "body": ["🧠🐌$0"],
