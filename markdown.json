@@ -372,7 +372,7 @@
     },
     "Insert signature: twitter: Kintespace": {
         "prefix": "signature: twitter",
-        "body": ["@[Kintespace](https://twitter.com/Kintespace)"],
+        "body": ["[rasx()](https://twitter.com/Kintespace)"],
         "description": "Insert signature: twitter: Kintespace"
     },
     "Insert signature: twitter: BryanWilhite": {
