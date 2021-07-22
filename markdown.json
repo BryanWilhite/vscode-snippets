@@ -135,10 +135,10 @@
         "body": ["☔🔨🎈$0"],
         "description": "Insert glyphs: b-moji: failing test coverage changes"
     },
-    "Insert glyphs: b-moji: folder": {
-        "prefix": "b-moji: folder",
+    "Insert glyphs: b-moji: directory": {
+        "prefix": "b-moji: directory",
         "body": ["📁$0"],
-        "description": "Insert glyphs: b-moji: folder"
+        "description": "Insert glyphs: b-moji: directory"
     },
     "Insert glyphs: b-moji: generate documents": {
         "prefix": "b-moji: generate documents",
