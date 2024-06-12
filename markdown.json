@@ -370,14 +370,14 @@
         "body": ["<${0:${TM_SELECTED_TEXT}}>"],
         "description": "Insert inline: uri brackets"
     },
+    "Insert signature: LinkedIn: Bryan Wilhite": {
+        "prefix": "signature: LinkedIn",
+        "body": ["[Bryan Wilhite is on LinkedIn](https://www.linkedin.com/in/wilhite)🇺🇸💼"],
+        "description": "Insert signature: LinkedIn: Bryan Wilhite"
+    },
     "Insert signature: twitter: Kintespace": {
         "prefix": "signature: twitter",
         "body": ["[rasx()](https://twitter.com/Kintespace)"],
         "description": "Insert signature: twitter: Kintespace"
-    },
-    "Insert signature: twitter: BryanWilhite": {
-        "prefix": "signature: twitter",
-        "body": ["@[BryanWilhite](https://twitter.com/BryanWilhite)"],
-        "description": "Insert signature: twitter: BryanWilhite"
     }
 }
